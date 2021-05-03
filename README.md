@@ -4,9 +4,18 @@
 
 VSCode extension that registers commands and executes them in the terminal with shortcut keys.
 
+## Install
+
+### Windows
+
+```
+cd C:\Users\xxx\.vscode\extensions
+git clone https://github.com/raster0x2a/vscode-my-shortcut.git
+```
+
 ## Settings
 
-1. Add this line to `~\AppData\Roaming\Code\User\keybings.json`.
+1. Add this line to `C:\Users\xxx\AppData\Roaming\Code\User\keybings.json`.
 
 ```js
 {
@@ -15,7 +24,7 @@ VSCode extension that registers commands and executes them in the terminal with 
 }
 ```
 
-2. Add this line to `~\AppData\Roaming\Code\User\settings.json`. If you want to use the path of the currently open file, write `{{filepath}}` in the command.
+2. Add this line to `C:\Users\xxx\AppData\Roaming\Code\User\settings.json`. If you want to use the path of the currently open file, write `{{filepath}}` in the command.
 
 ```js
     "my-shortcut": "[[ The command you want to execute. e.g. python {{filepath}} ]]"
