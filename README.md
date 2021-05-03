@@ -1,5 +1,9 @@
 ﻿# my-shortcut README
 
+## About
+
+VSCode extension that registers commands and executes them in the terminal with shortcut keys.
+
 ## Settings
 
 1. Add this line to `~\AppData\Roaming\Code\User\keybings.json`.
