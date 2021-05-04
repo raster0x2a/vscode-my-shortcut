@@ -19,7 +19,7 @@ git clone https://github.com/raster0x2a/vscode-my-shortcut.git
 
 ```js
 {
-    "key": "[[ Shortcut key you want to register. e.g. ctrl+shift+a ]]",
+    "key": "[[ Shortcut key you want to register. e.g. ctrl+shift+z ]]",
     "command": "my-shortcut.execInTerminal"
 }
 ```

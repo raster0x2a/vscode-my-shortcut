@@ -17,7 +17,6 @@
         "keybindings": [
             {
                 "command": "my-shortcut.execInTerminal",
-                "key": "ctrl+shift+z",
                 "when": "editorTextFocus"
             }
         ]
